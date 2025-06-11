@@ -7,3 +7,19 @@
 - detect_faces() - базовый метод детекции лиц (рефакторированная версия highlightFace)
 - process_image() - обработка отдельного изображения с возможностью сохранения
 - process_video_stream() - работа с видеокамерой (как в оригинальном коде)
+
+![test_image](https://github.com/user-attachments/assets/505cdfc7-ec42-487a-9d2f-6301cb83b209)  
+
+![result_test_image](https://github.com/user-attachments/assets/e96f6fce-18e8-40f9-b7e1-343d3551a59f)  
+
+## Часть 2
+
+- Класс AgeGenderDetector - расширен для работы с моделями определения пола и возраста
+- Метод predict_age_gender() - определяет пол и возраст для обрезанного изображения лица
+- Метод analyze_faces() - комплексный анализ всех лиц с выводом возраста и пола
+
+![image](https://github.com/user-attachments/assets/136c2072-99d6-480a-b003-3e74dff30059)  
+
+![result_age_gender_test_image](https://github.com/user-attachments/assets/90b8dc35-97fc-483a-8ff9-e7614f631544)  
+
+## Часть 3
