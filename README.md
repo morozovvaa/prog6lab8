@@ -23,3 +23,27 @@
 ![result_age_gender_test_image](https://github.com/user-attachments/assets/90b8dc35-97fc-483a-8ff9-e7614f631544)  
 
 ## Часть 3
+
+Функциональность:
+
+- Парсер аргументов - добавлена поддержка argparse
+- Параметр --image - для указания пути к изображению
+- Параметр --confidence - для настройки порога уверенности детекции
+- Универсальный метод process_video_stream() - теперь работает как с камерой, так и с изображениями
+
+Способы использования:
+
+1. Обработка изображения:
+```
+python main.py --image test_image.jpg
+```
+2. Обработка изображения с настройкой порога уверенности:
+```
+python main.py --image test_image.jpg --confidence 0.5
+```
+3. Работа с камерой (по умолчанию):
+```
+python main.py
+```
+
+![image](https://github.com/user-attachments/assets/9dd73a1d-1995-41fb-9be1-f70a1e4b2411)
