@@ -47,3 +47,10 @@ python main.py
 ```
 
 ![image](https://github.com/user-attachments/assets/9dd73a1d-1995-41fb-9be1-f70a1e4b2411)
+
+
+## tkinter
+
+![image](https://github.com/user-attachments/assets/d8cad972-ab9a-421c-adda-1eeea701d0a2)
+
+![image](https://github.com/user-attachments/assets/98b95911-bcbc-4f0b-a2c2-3d78566d4476)
